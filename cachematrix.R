@@ -10,6 +10,7 @@
 ##  in to enable caching of the matrix and inverse version of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
+    ## Empty the inverse matrix
     ix <- NULL
     
     ## set caches the matrix and clears the inverse matrix
