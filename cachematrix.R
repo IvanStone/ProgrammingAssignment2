@@ -5,7 +5,6 @@
 ##  calculated (and the matrix has not changed), then the cachesolve 
 ##  should retrieve the inverse from the cache.
 
-
 ## makeCacheMatrix creates a special matrix with additional functions baked
 ##  in to enable caching of the matrix and inverse version of the matrix
 
@@ -65,4 +64,3 @@ cacheSolve <- function(x, ...) {
     ## Return the inverse matrix
     ix  
 }
-
